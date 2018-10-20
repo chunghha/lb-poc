@@ -1,0 +1,19 @@
+{
+  "name": "country",
+  "connector": "rest",
+  "options": {
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json"
+    }
+  },
+  "operations": [{
+    "template": {
+      "method": "GET",
+      "url": "https://restcountries.eu/rest/v2/all"
+    },
+    "functions": {
+      "getCountries": []
+    }
+  }]
+}
