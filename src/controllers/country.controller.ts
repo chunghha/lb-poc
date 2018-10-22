@@ -1,11 +1,16 @@
 import { get } from '@loopback/rest';
+import { repository } from '@loopback/repository';
 
 import { CountryService, CountryServiceProvider } from '../services';
+import { CountryRepository } from '../repositories';
 import { Country } from '../models';
 
 export class CountryController {
 
   constructor(
+    @repository(CountryRepository)
+    public countryRepository: CountryRepository,
+
     protected countryServiceProvider: CountryServiceProvider = new CountryServiceProvider()) { }
 
   // Map to `GET /country`
@@ -18,9 +23,7 @@ export class CountryController {
             schema: {
               type: 'array',
               items: {
-                // Commented out till knowing why this points to
-                // #/components/schemas/Country
-                // 'x-ts-type': Country
+                'x-ts-type': Country
               },
             },
           },

@@ -1,9 +1,9 @@
-import {BootMixin} from '@loopback/boot';
-import {ApplicationConfig} from '@loopback/core';
-import {RepositoryMixin} from '@loopback/repository';
-import {RestApplication} from '@loopback/rest';
-import {ServiceMixin} from '@loopback/service-proxy';
-import {MySequence} from './sequence';
+import { BootMixin } from '@loopback/boot';
+import { ApplicationConfig } from '@loopback/core';
+import { RepositoryMixin } from '@loopback/repository';
+import { RestApplication } from '@loopback/rest';
+import { ServiceMixin } from '@loopback/service-proxy';
+import { MySequence } from './sequence';
 
 export class LbPocApplication extends BootMixin(
   ServiceMixin(RepositoryMixin(RestApplication)),
@@ -26,3 +26,4 @@ export class LbPocApplication extends BootMixin(
     };
   }
 }
+

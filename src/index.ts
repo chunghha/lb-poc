@@ -1,7 +1,7 @@
-import {LbPocApplication} from './application';
-import {ApplicationConfig} from '@loopback/core';
+import { LbPocApplication } from './application';
+import { ApplicationConfig } from '@loopback/core';
 
-export {LbPocApplication};
+export { LbPocApplication };
 
 export async function main(options: ApplicationConfig = {}) {
   const app = new LbPocApplication(options);
