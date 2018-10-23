@@ -1,5 +1,6 @@
-import { LbPocApplication } from './application';
 import { ApplicationConfig } from '@loopback/core';
+
+import { LbPocApplication } from './application';
 
 export { LbPocApplication };
 

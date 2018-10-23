@@ -1,5 +1,4 @@
 import { get } from '@loopback/rest';
-import { repository } from '@loopback/repository';
 
 import { CountryService, CountryServiceProvider } from '../services';
 import { Country } from '../models';
