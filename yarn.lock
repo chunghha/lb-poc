@@ -97,14 +97,14 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@loopback/boot@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/boot/-/boot-1.0.1.tgz#f03acaa9f73f6898e788ceefa486c75310b1b42d"
-  integrity sha512-rT74B9YiRoNf8ASFVFBSFixLt2J1LKk0BgMm+7/RWa5gGM7cNCupTIXM1nUzsGUkZSOUsxlDRtNVRd+GLHKUJA==
+"@loopback/boot@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@loopback/boot/-/boot-1.0.2.tgz#a38bc310c7ec2954ad0b8f72ef05a806c10ed0cd"
+  integrity sha512-Sbuw5hBgJZITQgzH65keOzHahIsURqiraLUux4RCTReMMvI9CZ+jWc85Yh9RLudFW5EgK1+eKVHGA17QV2unCg==
   dependencies:
     "@loopback/context" "^1.0.0"
     "@loopback/core" "^1.0.0"
-    "@loopback/repository" "^1.0.1"
+    "@loopback/repository" "^1.0.2"
     "@loopback/service-proxy" "^1.0.0"
     "@types/debug" "0.0.30"
     "@types/glob" "^7.1.1"
@@ -170,31 +170,31 @@
   dependencies:
     openapi3-ts "^1.0.0"
 
-"@loopback/openapi-v3@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/openapi-v3/-/openapi-v3-1.0.1.tgz#575c3210f5b9c47322b572032f81ebf8c5c6f015"
-  integrity sha512-nIJvQTBxFD6o898j7hV0qOXG/H/BdmzZr0pO4Abdv/YbwZ6b9cmhqk7A8qjkWFxrZeIlkouYt2Nf3j5ZLYEU9g==
+"@loopback/openapi-v3@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@loopback/openapi-v3/-/openapi-v3-1.0.2.tgz#55f0a6e94f230c8451c2df2b8ccccba902be2cb0"
+  integrity sha512-CZyXa1QWo6zjQsgOdZ2RN6iBw1x4+sN8qNJltN0McM5+syhj7hLl+Sny6scCZbIlvLZclc5eD147YipdjKEemA==
   dependencies:
     "@loopback/context" "^1.0.0"
     "@loopback/openapi-v3-types" "^1.0.0"
-    "@loopback/repository-json-schema" "^1.0.1"
+    "@loopback/repository-json-schema" "^1.1.0"
     debug "^4.0.1"
     lodash "^4.17.5"
 
-"@loopback/repository-json-schema@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/repository-json-schema/-/repository-json-schema-1.0.1.tgz#06f8700dc720f4ae2cb78cc83fa8e78fb247b106"
-  integrity sha512-CT2j8nlD20oVOcIHx0vfnG01piUKMExyZmilB2Prc3YRfu/b/vy7MRFZcTf9+sIqBfANPdLRTEJsh90iIOMq0g==
+"@loopback/repository-json-schema@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@loopback/repository-json-schema/-/repository-json-schema-1.1.0.tgz#4eb33ae6bfd06134869c662595ee78fb007c5955"
+  integrity sha512-abKsMvL8aJmt3pWLHAGcW6Y3b6U5u2QeCTQkk+TM3ohyHuLlKbndwx1cEE6uY6G0WSaaSlu/XquFnvKgGXHtUg==
   dependencies:
     "@loopback/context" "^1.0.0"
     "@loopback/metadata" "^1.0.0"
-    "@loopback/repository" "^1.0.1"
+    "@loopback/repository" "^1.0.2"
     "@types/json-schema" "^7.0.1"
 
-"@loopback/repository@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/repository/-/repository-1.0.1.tgz#74ad0aa7c16220df5e1e2e48e82eb1190d471a2a"
-  integrity sha512-+Ua37na8nqafkT+71E8bWx7kRv5NgiODZWAtjkYi9FUJyq/qW4geLjHX/kdhz2kCFXQ1ttN6j6PR4xF/IqURqw==
+"@loopback/repository@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@loopback/repository/-/repository-1.0.2.tgz#187275332efdb16e8b36399a3be4efe809dac5c1"
+  integrity sha512-B5LfE0LYAAgPPZK/XyhiWoNGa1m5+WVm58BEb46Z8PNAv1Ozdi1GCP0OPUKXnNjAHWM0j5QD4mM/MQvmyF8lCg==
   dependencies:
     "@loopback/context" "^1.0.0"
     "@loopback/core" "^1.0.0"
@@ -203,15 +203,15 @@
     lodash "^4.17.10"
     loopback-datasource-juggler "^4.0.0"
 
-"@loopback/rest@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/rest/-/rest-1.0.1.tgz#9aed3b811734569d1976f33ec82410c7260e3026"
-  integrity sha512-i1jMmMVaZAygIeEkhiaNk20CbGHrrExquWmaB8+JL03mHXKEl3u+m2EU71pUBavk+rO1iygJyGGHY/9fVjuieg==
+"@loopback/rest@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@loopback/rest/-/rest-1.1.0.tgz#629d78ce244918926b682d3c647a61c459abb3f9"
+  integrity sha512-GSWFsn6HS82iXfoyaizW3p2/cb57l40ZBysSZDyHojwxbTLselctp4TrqmOqX/mO0yT+QKdBIHu5TWC+j7cSQw==
   dependencies:
     "@loopback/context" "^1.0.0"
     "@loopback/core" "^1.0.0"
     "@loopback/http-server" "^1.0.0"
-    "@loopback/openapi-v3" "^1.0.1"
+    "@loopback/openapi-v3" "^1.0.2"
     "@loopback/openapi-v3-types" "^1.0.0"
     "@types/cors" "^2.8.3"
     "@types/express" "^4.11.1"
