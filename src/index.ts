@@ -5,6 +5,17 @@ import { LbPocApplication } from './application';
 export { LbPocApplication };
 
 export async function main(options: ApplicationConfig = {}) {
+  options = Object.assign(
+    {
+      rest: {
+        openApiSpec: {
+          setServersFromRequest: true,
+        },
+      },
+    },
+    options,
+  );
+
   const app = new LbPocApplication(options);
   await app.boot();
   await app.start();
