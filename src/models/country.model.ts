@@ -15,6 +15,14 @@ export class Country extends Entity {
   capital?: string;
 
   @property({
+    type: 'string',
+  })
+  flag?: string;
+
+  @property.array(Number)
+  latlng?: number[];
+
+  @property({
     type: 'number',
   })
   population?: number;
@@ -22,7 +30,7 @@ export class Country extends Entity {
   @property({
     type: 'string',
   })
-  flag?: string;
+  region?: string;
 
   @property({
     type: 'string',
