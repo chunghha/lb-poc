@@ -36,7 +36,7 @@
     "type": "git"
   },
   "author": "",
-  "license": "",
+  "license": "MIT",
   "files": [
     "README.md",
     "index.js",
@@ -54,13 +54,13 @@
     "@loopback/rest": "^1.1.0",
     "@loopback/service-proxy": "^1.0.0",
     "express": "^4.16.4",
-    "express-graphql": "^0.6.12",
-    "loopback-connector-rest": "^3.3.0",
+    "express-graphql": "^0.7.1",
+    "loopback-connector-rest": "^3.4.1",
     "oasgraph": "^0.10.1"
   },
   "devDependencies": {
     "@loopback/build": "^1.0.0",
     "@loopback/testlab": "^1.0.0",
-    "@types/node": "^10.12.0"
+    "@types/node": "^10.12.1"
   }
 }
