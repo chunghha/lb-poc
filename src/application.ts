@@ -2,19 +2,14 @@ import { BootMixin } from '@loopback/boot';
 import { ApplicationConfig } from '@loopback/core';
 import { RepositoryMixin } from '@loopback/repository';
 import { RestApplication } from '@loopback/rest';
-import {
-  RestExplorerBindings,
-  RestExplorerComponent
-} from '@loopback/rest-explorer';
+import { RestExplorerBindings, RestExplorerComponent } from '@loopback/rest-explorer';
 import { ServiceMixin } from '@loopback/service-proxy';
 
 import * as path from 'path';
 
 import { MySequence } from './sequence';
 
-export class LbPocApplication extends BootMixin(
-  ServiceMixin(RepositoryMixin(RestApplication)),
-) {
+export class LbPocApplication extends BootMixin(ServiceMixin(RepositoryMixin(RestApplication))) {
   constructor(options: ApplicationConfig = {}) {
     super(options);
 
@@ -26,7 +21,7 @@ export class LbPocApplication extends BootMixin(
 
     // Customize @loopback/rest-explorer configuration here
     this.bind(RestExplorerBindings.CONFIG).to({
-      path: '/explorer',
+      path: '/explorer'
     });
     this.component(RestExplorerComponent);
 
@@ -37,9 +32,8 @@ export class LbPocApplication extends BootMixin(
         // Customize ControllerBooter Conventions here
         dirs: ['controllers'],
         extensions: ['.controller.js'],
-        nested: true,
-      },
+        nested: true
+      }
     };
   }
 }
-

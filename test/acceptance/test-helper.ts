@@ -1,13 +1,9 @@
-import {LbPocApplication} from '../..';
-import {
-  createRestAppClient,
-  givenHttpServerConfig,
-  Client,
-} from '@loopback/testlab';
+import { LbPocApplication } from '../..';
+import { createRestAppClient, givenHttpServerConfig, Client } from '@loopback/testlab';
 
 export async function setupApplication(): Promise<AppWithClient> {
   const app = new LbPocApplication({
-    rest: givenHttpServerConfig(),
+    rest: givenHttpServerConfig()
   });
 
   await app.boot();
@@ -15,7 +11,7 @@ export async function setupApplication(): Promise<AppWithClient> {
 
   const client = createRestAppClient(app);
 
-  return {app, client};
+  return { app, client };
 }
 
 export interface AppWithClient {

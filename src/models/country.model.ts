@@ -5,17 +5,17 @@ export class Country extends Entity {
   @property({
     type: 'string',
     id: true,
-    required: true,
+    required: true
   })
   name: string;
 
   @property({
-    type: 'string',
+    type: 'string'
   })
   capital?: string;
 
   @property({
-    type: 'string',
+    type: 'string'
   })
   flag?: string;
 
@@ -23,17 +23,17 @@ export class Country extends Entity {
   latlng?: number[];
 
   @property({
-    type: 'number',
+    type: 'number'
   })
   population?: number;
 
   @property({
-    type: 'string',
+    type: 'string'
   })
   region?: string;
 
   @property({
-    type: 'string',
+    type: 'string'
   })
   subregion?: string;
 

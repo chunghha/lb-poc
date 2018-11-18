@@ -13,7 +13,7 @@ export class CountryServiceProvider implements Provider<CountryService> {
     // country must match the name property in the datasource json file
     @inject('datasources.country')
     protected dataSource: juggler.DataSource = new CountryDataSource()
-  ) { }
+  ) {}
 
   value(): Promise<CountryService> {
     return getService(this.dataSource);

@@ -9,11 +9,11 @@ export async function main(options: ApplicationConfig = {}) {
     {
       rest: {
         openApiSpec: {
-          setServersFromRequest: true,
-        },
-      },
+          setServersFromRequest: true
+        }
+      }
     },
-    options,
+    options
   );
 
   const app = new LbPocApplication(options);
