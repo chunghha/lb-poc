@@ -97,25 +97,26 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@loopback/boot@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@loopback/boot/-/boot-1.0.7.tgz#e0668f76b9f3af1cb0799e923fcda4a39724df08"
-  integrity sha512-sBZPf3LJK7qsSScDSaF47t+DrxMFC7Y0VGP8xvU8Plh1Uo/bAZdnyYniyfsgofX46yPjQO5w9+76J64JJMPfiA==
+"@loopback/boot@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@loopback/boot/-/boot-1.0.8.tgz#6e1027e7093342539f1f5a1f6b1da49be6f279ff"
+  integrity sha512-58OLuIxCkpguFC9QnrfEespaRBH6IBaeEszfmU1Vv2TQzzLavTvtwg7oDHmXbyPeEi1S6pdLnnuyQBokoYkqyg==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/core" "^1.1.2"
-    "@loopback/repository" "^1.1.0"
-    "@loopback/service-proxy" "^1.0.4"
+    "@loopback/context" "^1.4.0"
+    "@loopback/core" "^1.1.3"
+    "@loopback/repository" "^1.1.1"
+    "@loopback/service-proxy" "^1.0.5"
     "@types/debug" "0.0.30"
     "@types/glob" "^7.1.1"
     debug "^4.0.1"
     glob "^7.1.2"
 
-"@loopback/build@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@loopback/build/-/build-1.0.2.tgz#f226649d3799ba0b75988e82bf15510cf05e7890"
-  integrity sha512-vxCog6mld8kcTYk+a5ehNMczRJ2u4O3qbIxHEOcjsgokeEBAg7vBuogTsng/x9/wfs07w4phwhhnb9KaxXOLPQ==
+"@loopback/build@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@loopback/build/-/build-1.1.0.tgz#623a813311bfb1b06c27da0e98bc71a44f77faa9"
+  integrity sha512-xMxgd98bzHUv6BkUWXiCYRK7tgK/qEwNrcxm1L7M/79lt6rfA5nTh/uuuKc4k7dFqWp2beFQmHc8gVOnZ1tYIQ==
   dependencies:
+    "@loopback/tslint-config" "^1.0.0"
     "@types/mocha" "^5.0.0"
     "@types/node" "^10.11.2"
     cross-spawn "^6.0.5"
@@ -131,99 +132,99 @@
     tslint "^5.9.1"
     typescript "^3.2.1"
 
-"@loopback/context@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@loopback/context/-/context-1.3.0.tgz#ed184f0886660505941b07423046c7872cceefc0"
-  integrity sha512-EdlnT1GXETl5pTD3mVxIU2ZUMECgXcY1FCfO+cXBjjpeeCn+Xn14ib3g0DmMtnuYty1KV+biW6gtFEF+00Cvbw==
+"@loopback/context@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@loopback/context/-/context-1.4.0.tgz#8e2d0fe102009866ecb0b67a972186bf75329e6d"
+  integrity sha512-bDxledB48DMFTBbR1XwGD078tqF24T2YYwcnYzogDEICANC+z+1wZ7ZgfZzkJFSAM7bwe1ftqAht4Sb4Sl/62Q==
   dependencies:
-    "@loopback/metadata" "^1.0.2"
+    "@loopback/metadata" "^1.0.3"
     debug "^4.0.1"
     uuid "^3.2.1"
 
-"@loopback/core@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@loopback/core/-/core-1.1.2.tgz#ce3b291c19dc133558c3efe3d9759d9d414bfe02"
-  integrity sha512-wXVQZY8ZqjKm5fwwK/7nOOtVnnIbK5BPXEyMoKMmO1KEawKy2dd+9YWyk6mQzbheNFzpR46lRNOte3IKxAh9JQ==
+"@loopback/core@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@loopback/core/-/core-1.1.3.tgz#a422812762b414a91993ec9a219ed0065f74c43a"
+  integrity sha512-7HlF+EKixRM3dEWtT38uIaqUobF1BHOJ+BpfIawYVSIP+2eVqGuhJopbJTTCDUJe0lDHFX275FbCgT2+RMmQeA==
   dependencies:
-    "@loopback/context" "^1.3.0"
+    "@loopback/context" "^1.4.0"
 
-"@loopback/http-server@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@loopback/http-server/-/http-server-1.1.1.tgz#4fcd1c01c59de855fdf56e2f58aa7ce4b8168905"
-  integrity sha512-lu+17dJaPAgiZjXvlaNUK3KreidzcIkRTMETnduDNR29pArOAUdryXxww3hOS9Q6I0a0oJkbrL0ilvibFvVrvw==
+"@loopback/http-server@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@loopback/http-server/-/http-server-1.1.2.tgz#fe86fa7e863445d1a3c3cd8ffafbe8db0e5da5f0"
+  integrity sha512-HFKLqYzTTiBAKzzB7hYE1b2nAU1Tt0hwVlAWwOuLdjZ6D/pE1ommcBB26KHBrGHag8PNMcRvQ/AiioCWOiXEhg==
   dependencies:
     p-event "^2.0.0"
 
-"@loopback/metadata@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@loopback/metadata/-/metadata-1.0.2.tgz#a7a1246fe50b957f5f7508c744c0705cb9edf8ce"
-  integrity sha512-y/vRrvXoGKihgUPbL2+xZnQGIV+6WbnZBctD44k61/yLFBH3XYXv+UmgPiLwu6fVCKpXGt6/Bg28z+m5v8rv+g==
+"@loopback/metadata@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@loopback/metadata/-/metadata-1.0.3.tgz#0a01ba34cf3e4dcc672f58ff5a8bf9b55373b584"
+  integrity sha512-CwhX1Cnla80cy+82tuL2nkLC6DyrfTPJQsUKaDruxhQiIwGLVMKifs7pOLepEu57thCeyqQUQCRi+AtEylohJA==
   dependencies:
     debug "^4.0.1"
     lodash "^4.17.5"
     reflect-metadata "^0.1.10"
 
-"@loopback/openapi-v3-types@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@loopback/openapi-v3-types/-/openapi-v3-types-1.0.2.tgz#51d49e0f64ac079bd943a210e2589052eab45cae"
-  integrity sha512-08xqJed5XS5Pb1FAHMPiG8ACZmQROcMnex8iF0jOMhlJTGYD53RCAC0TyCXJyRg4yyNF3COpOLnlLat2HI8bYA==
+"@loopback/openapi-v3-types@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@loopback/openapi-v3-types/-/openapi-v3-types-1.0.3.tgz#46103d6eaa26d018e5455313b3d36def2aacacf6"
+  integrity sha512-2dexjvzb/9qK1YUyNZqAlzH3SbvleY9yvRmxlZjy/Ka1aolryc4UPxUNG5nXnKgKtc3TC0HTc/8rstr8pHDrQg==
   dependencies:
     openapi3-ts "^1.0.0"
 
-"@loopback/openapi-v3@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@loopback/openapi-v3/-/openapi-v3-1.1.4.tgz#0b4fa60f806dade874dde61b666cddc17688f908"
-  integrity sha512-rsO7UhIPWHrHyHNQZvOY+IAvN9DSPkfbxTqYZFKX2z6J1b6HnssgL62cjfw/z3a4zRw5rRpixVYEJEevTKfF0w==
+"@loopback/openapi-v3@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@loopback/openapi-v3/-/openapi-v3-1.1.5.tgz#5832e0b9c83727d52c1444ca135578bd263223c2"
+  integrity sha512-oHRx3p9aLRptH+KLGj0ETadc+QyoOMCpafqeI74hl272Ogdy8a+6xlNWIl7Q6ZQUhSx7/V+gqMeA0md255Y7sQ==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/openapi-v3-types" "^1.0.2"
-    "@loopback/repository-json-schema" "^1.2.4"
+    "@loopback/context" "^1.4.0"
+    "@loopback/openapi-v3-types" "^1.0.3"
+    "@loopback/repository-json-schema" "^1.2.5"
     debug "^4.0.1"
     lodash "^4.17.5"
 
-"@loopback/repository-json-schema@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@loopback/repository-json-schema/-/repository-json-schema-1.2.4.tgz#c929a5e776c585acb1ba82b1c919452d09ab6834"
-  integrity sha512-z1DxXK0c3SzgDem7ctJ8DW+O8YfVxCBZWD7C+WQXGmFEjLzjij8UxNVmqA+2kpt0Zh1Qqzsd4LI4SrwRH7r7vA==
+"@loopback/repository-json-schema@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@loopback/repository-json-schema/-/repository-json-schema-1.2.5.tgz#7b92c51d7f9230f2d66acb051f4f67db58dd613b"
+  integrity sha512-0npaMmVaPUWQY8Z8GsIl0I3+uTl/A23aRBNE7LQW8evrukOxsJyaoXsoffq1CtBEnQlzxSwr4ivJU0pLM9w6Ng==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/metadata" "^1.0.2"
-    "@loopback/repository" "^1.1.0"
+    "@loopback/context" "^1.4.0"
+    "@loopback/metadata" "^1.0.3"
+    "@loopback/repository" "^1.1.1"
     "@types/json-schema" "^7.0.1"
 
-"@loopback/repository@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@loopback/repository/-/repository-1.1.0.tgz#ccf629a31aa026e625bee06bfa3bc1d0bca44428"
-  integrity sha512-8vLJr+NIgqy2ApUxBO3QzjZDQ7cvK12MpSIZCAh5F4JLYC1Awd4HQh/xqfZEXyBMMqDIfttb/rb/+AKDXUbK7A==
+"@loopback/repository@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@loopback/repository/-/repository-1.1.1.tgz#875237e7324ae5e9aa347337df144f1f4b6a09af"
+  integrity sha512-UKd03T6rCEagzidhIw+WG0NPFq+SwspuUyQfiFaWM0ijaEKzrLmNjTgk2GJf5ZsNwaS9tEBYZHarcU+XmXQYcw==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/core" "^1.1.2"
+    "@loopback/context" "^1.4.0"
+    "@loopback/core" "^1.1.3"
     "@types/debug" "0.0.30"
     debug "^4.0.1"
     lodash "^4.17.10"
     loopback-datasource-juggler "^4.0.0"
 
-"@loopback/rest-explorer@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@loopback/rest-explorer/-/rest-explorer-1.1.3.tgz#f37228284eb5193871448302741bf19ecee32e93"
-  integrity sha512-i+Af/SvNGpvbHdUzhV+qnIwBSeJNtQmWFcod/TBgNQRXnLbKPVeZby3LQlszMSO5tQuxfwcOXw0MHMROjRJ9HQ==
+"@loopback/rest-explorer@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@loopback/rest-explorer/-/rest-explorer-1.1.4.tgz#4ebe569cedf671d3c8a547b2eb0d4e7f2d7a6d42"
+  integrity sha512-gLhRnc0DWpar+5/W8cqB7WviaGzwcJuJJph38zP3sXYfNrem7JMmOMW1jpMME15FzpEiQMwpZNbxvNypnVjAWw==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/core" "^1.1.2"
-    "@loopback/rest" "^1.5.0"
+    "@loopback/context" "^1.4.0"
+    "@loopback/core" "^1.1.3"
+    "@loopback/rest" "^1.5.1"
     ejs "^2.6.1"
     swagger-ui-dist "^3.20.0"
 
-"@loopback/rest@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@loopback/rest/-/rest-1.5.0.tgz#ca26cc9236b69c9cc5d8705a0c8e4f7b7aa0f516"
-  integrity sha512-B6YmylzI6AsAP8G/nF5s1YOdxWOpQxw2fGqUzmJw7MWjiZckttnhxrKas0WOHYg7PN8g8E+AtaqJVOABPJ7Rkw==
+"@loopback/rest@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@loopback/rest/-/rest-1.5.1.tgz#97959564b2e4a4376fa73d80eefbafd826a98d99"
+  integrity sha512-MRqRBmUnH59A/NQ4I1Jv/6EDWYpgYieztNYO+lPl/EjZ+WtoPDzYGV9GwBgPj6KihQwW29V91XNHwPd0zKSTfg==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/core" "^1.1.2"
-    "@loopback/http-server" "^1.1.1"
-    "@loopback/openapi-v3" "^1.1.4"
-    "@loopback/openapi-v3-types" "^1.0.2"
+    "@loopback/context" "^1.4.0"
+    "@loopback/core" "^1.1.3"
+    "@loopback/http-server" "^1.1.2"
+    "@loopback/openapi-v3" "^1.1.5"
+    "@loopback/openapi-v3-types" "^1.0.3"
     "@types/body-parser" "^1.17.0"
     "@types/cors" "^2.8.3"
     "@types/express" "^4.11.1"
@@ -247,19 +248,19 @@
     type-is "^1.6.16"
     validator "^10.4.0"
 
-"@loopback/service-proxy@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@loopback/service-proxy/-/service-proxy-1.0.4.tgz#d3bc4023524a3f200f842a93c64fcac056d84425"
-  integrity sha512-zuzQCiYeMCOM0zSRpOhs1Q3cPwFdAlHMrNT6Ng7l7eEGZJBUFMpSdQiGT+qZCF4gzspuQDt4jbKNmWKBF3kHIQ==
+"@loopback/service-proxy@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@loopback/service-proxy/-/service-proxy-1.0.5.tgz#1dc6aff5afcb4f2a17dcee1b08b1660287091e5d"
+  integrity sha512-ayS/TOnMYhaXDKzc5CrOV4BSskS5xMQvisPMhHYoHZoXUEfPV2q8pBTpoxaqiXGb1ygfacg363kUyL7gJeeRtw==
   dependencies:
-    "@loopback/context" "^1.3.0"
-    "@loopback/core" "^1.1.2"
+    "@loopback/context" "^1.4.0"
+    "@loopback/core" "^1.1.3"
     loopback-datasource-juggler "^4.0.0"
 
-"@loopback/testlab@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@loopback/testlab/-/testlab-1.0.2.tgz#7776b1ce65a323cb8de10d8c77a40c6dcf700767"
-  integrity sha512-8GXr5z2oyikH7RNvVx/vWXwyE0dDM+wwEUBZeCfkq4EjIkBj77oyLV1NWgsRqt/tOMIJ6BPjTdHIRhyMINhTkQ==
+"@loopback/testlab@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@loopback/testlab/-/testlab-1.0.3.tgz#af3277dd05b3f6834ee3db0e501c7cedd1a6aa61"
+  integrity sha512-bvF9i39/thleHXKaBev8fFT41FIHGIQgirD37uo0KTKJHUaMUgPmpce/oSKrAZsm8vtzpVwz09ZM7LUzI3thtw==
   dependencies:
     "@types/express" "^4.11.1"
     "@types/fs-extra" "^5.0.1"
@@ -273,6 +274,11 @@
     should "^13.2.1"
     sinon "^6.3.4"
     supertest "^3.0.0"
+
+"@loopback/tslint-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@loopback/tslint-config/-/tslint-config-1.0.0.tgz#88b86e138f3bb43dfd09e6f0d7e19e65de78f2e1"
+  integrity sha512-9xF5/7BM/NmktJXtrJi9DrfuqyJnCHBvf0ah4LH5S1WKVBrPob9IZDoj0ab3EXottHNoOxtwXtEG7KIk8HurfA==
 
 "@sinonjs/commons@^1.0.2":
   version "1.3.0"
@@ -421,10 +427,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.9.tgz#a07bfa74331471e1dc22a47eb72026843f7b95c8"
   integrity sha512-eajkMXG812/w3w4a1OcBlaTwsFPO5F7fJ/amy+tieQxEMWBlbV1JGSjkFM+zkHNf81Cad+dfIRA+IBkvmvdAeA==
 
-"@types/node@^10.12.15":
-  version "10.12.15"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.15.tgz#20e85651b62fd86656e57c9c9bc771ab1570bc59"
-  integrity sha512-9kROxduaN98QghwwHmxXO2Xz3MaWf+I1sLVAA6KJDF5xix+IyXVhds0MAfdNwtcpSrzhaTsNB0/jnL86fgUhqA==
+"@types/node@^10.12.18":
+  version "10.12.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
+  integrity sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==
 
 "@types/range-parser@*":
   version "1.2.2"
