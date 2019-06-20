@@ -1,3 +1,4 @@
+.eslintrc.js
 dist
 *.json
 api-docs
