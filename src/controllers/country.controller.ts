@@ -27,6 +27,6 @@ export class CountryController {
   async getCountries(): Promise<Country[]> {
     const countryService: CountryService = await this.countryServiceProvider.value();
 
-    return await countryService.getCountries();
+    return countryService.getCountries();
   }
 }
