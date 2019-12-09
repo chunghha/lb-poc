@@ -45,30 +45,30 @@
     "src"
   ],
   "dependencies": {
-    "@loopback/boot": "^1.5.10",
-    "@loopback/context": "^1.23.4",
-    "@loopback/core": "^1.10.6",
-    "@loopback/openapi-v3": "^1.10.0",
-    "@loopback/repository": "^1.15.3",
-    "@loopback/rest": "^1.22.0",
-    "@loopback/rest-explorer": "^1.4.3",
-    "@loopback/service-proxy": "^1.3.10",
+    "@loopback/boot": "^1.6.0",
+    "@loopback/context": "^1.25.0",
+    "@loopback/core": "^1.12.0",
+    "@loopback/openapi-v3": "^1.10.3",
+    "@loopback/repository": "^1.16.0",
+    "@loopback/rest": "^1.25.0",
+    "@loopback/rest-explorer": "^1.4.6",
+    "@loopback/service-proxy": "^1.3.13",
     "express-graphql": "^0.9.0",
     "loopback-connector-rest": "^3.6.0",
-    "oasgraph": "^0.14.3"
+    "openapi-to-graphql": "^1.6.3"
   },
   "devDependencies": {
-    "@loopback/build": "^2.0.15",
-    "@loopback/eslint-config": "^4.1.3",
-    "@loopback/testlab": "^1.9.3",
-    "@types/node": "^12.11.7",
-    "@typescript-eslint/eslint-plugin": "^2.5.0",
-    "@typescript-eslint/parser": "^2.5.0",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.4.0",
+    "@loopback/build": "^3.0.0",
+    "@loopback/eslint-config": "^5.0.0",
+    "@loopback/testlab": "^1.10.0",
+    "@types/node": "^12.12.15",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-eslint-plugin": "^2.1.0",
-    "eslint-plugin-mocha": "^6.2.0",
+    "eslint-plugin-mocha": "^6.2.2",
     "oasgraph-cli": "^0.4.3",
-    "typescript": "~3.6.4"
+    "typescript": "~3.7.3"
   }
 }
