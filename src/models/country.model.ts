@@ -37,6 +37,9 @@ export class Country extends Entity {
   })
   subregion?: string;
 
+  @property.array(String)
+  timezones?: string[];
+
   constructor(data?: Partial<Country>) {
     super(data);
   }
