@@ -1,6 +1,6 @@
 {
   "name": "lb-poc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "loopback",
   "keywords": [
     "loopback-application",
@@ -8,7 +8,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.9"
+    "node": ">=10"
   },
   "scripts": {
     "build": "lb-tsc",
@@ -45,27 +45,27 @@
     "src"
   ],
   "dependencies": {
-    "@loopback/boot": "^2.0.0",
-    "@loopback/context": "^3.0.0",
-    "@loopback/core": "^2.0.0",
-    "@loopback/openapi-v3": "^3.0.0",
-    "@loopback/repository": "^2.0.0",
-    "@loopback/rest": "^3.0.0",
-    "@loopback/rest-explorer": "^2.0.0",
-    "@loopback/service-proxy": "^2.0.0",
+    "@loopback/boot": "^2.0.2",
+    "@loopback/context": "^3.2.0",
+    "@loopback/core": "^2.2.0",
+    "@loopback/openapi-v3": "^3.1.1",
+    "@loopback/repository": "^2.0.2",
+    "@loopback/rest": "^3.1.0",
+    "@loopback/rest-explorer": "^2.0.2",
+    "@loopback/service-proxy": "^2.0.2",
     "express-graphql": "^0.9.0",
     "loopback-connector-rest": "^3.6.0",
     "openapi-to-graphql": "^2.0.0"
   },
   "devDependencies": {
-    "@loopback/build": "^4.0.0",
-    "@loopback/eslint-config": "^6.0.0",
-    "@loopback/testlab": "^2.0.0",
-    "@types/node": "^12.12.30",
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.24.0",
+    "@loopback/build": "^5.0.0",
+    "@loopback/eslint-config": "^6.0.2",
+    "@loopback/testlab": "^2.0.2",
+    "@types/node": "^12.12.32",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-eslint-plugin": "^2.2.1",
     "eslint-plugin-mocha": "^6.3.0",
     "openapi-to-graphql-cli": "^2.0.0",
