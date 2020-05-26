@@ -4,7 +4,7 @@ import { LbPocApplication } from './application';
 
 export { LbPocApplication };
 
-export async function main(options: ApplicationConfig = {}) {
+export async function main(options: ApplicationConfig = {}): Promise<LbPocApplication> {
   options = Object.assign(
     {
       rest: {

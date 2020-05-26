@@ -18,7 +18,7 @@ export class HomePageController {
       }
     }
   })
-  homePage() {
+  homePage(): Response {
     this.response.status(200).contentType('html').send(this.html);
     return this.response;
   }
